@@ -6,7 +6,8 @@ This application was styled using tailwinds css, as I wanted to learn a new way 
 To run this application locally, please run the following commands after cloning the repo:  
 Navigate to the backend directory and run:  
 - npm install express  
-- npm run start  
+- npm run start
+- You will also need to create a MongoDB database to run this app, and place it in the config.js file. As it does not yet have the login features created and this app is not currently using a .env file, I remove my DB from the project.
 
 After connecting to the DB and the server, navigate to the frontend folder and run:   
 - npm install
